@@ -4,9 +4,6 @@ window.onload = function () {
     const firstAnimationMsDuration = 4250;
     const body = document.querySelector('body');
     const backdrop = document.querySelector('div.backdrop');
-    let contactFormModal = document.querySelector('.contact-form-modal');
-    let contactFormLink = document.querySelector('.contact-form-link');
-    let contactFormModalCloseButton = document.querySelector('.contact-form-modal .close-button');
 
     // When first animation ends...we must remove backdrop
     setTimeout(function () {
@@ -51,22 +48,5 @@ window.onload = function () {
             inPageTop = false;
             addArrowToTopAnimation();
         }
-    });
-
-    function toggleContactFormModal() {
-        if (contactFormModal.classList.contains('opened')) {
-            contactFormModal.classList.remove('opened');
-            body.style.overflowY = 'scroll';
-        } else {
-            contactFormModal.classList.add('opened');
-            body.style.overflowY = 'hidden';
-        }
-    }
-
-    contactFormLink.addEventListener('click', function () {
-        toggleContactFormModal()
-    });
-    contactFormModalCloseButton.addEventListener('click', function () {
-        toggleContactFormModal()
     });
 };
