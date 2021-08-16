@@ -1,8 +1,10 @@
-/* Font */
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@font-face {
+  font-family: 'Raleway';
+  src: url('fonts/Raleway-Light.ttf') format('truetype');
+}
 
 * {
-  font-family: 'Raleway', sans-serif!important;
+  font-family: 'Raleway', sans-serif;
   box-sizing: border-box;
 }
 
