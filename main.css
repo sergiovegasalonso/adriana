@@ -417,6 +417,7 @@ header.header > .subline {
 
 .portfolio > .page.third .logos-wrapper a img {
   width: 15rem;
+  height: auto;
 }
 
 @media (orientation: portrait) {
@@ -621,10 +622,6 @@ header.header > .subline {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-}
-
-.portfolio > .page.third .logos-wrapper a svg {
- width: 100%;
 }
 
 .portfolio > .page.fourth {
