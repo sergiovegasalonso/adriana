@@ -262,7 +262,6 @@ header.header > .subline {
 .portfolio > .page {
   position: relative;
   width: 100vw;
-  min-height: 100vh;
   padding-right: 6rem;
   padding-left: 6rem;
 }
@@ -280,6 +279,7 @@ header.header > .subline {
   display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
   display: flex;
   background-color: var(--white-color);
+  min-height: 100vh;
 }
 
 @media (orientation: portrait) {
@@ -383,6 +383,7 @@ header.header > .subline {
   -webkit-box-direction: normal;
     -ms-flex-direction: column;
         flex-direction: column;  
+  min-height: 100vh;
 }
 
 .portfolio > .page.second .title {
@@ -412,6 +413,10 @@ header.header > .subline {
   background-color: var(--white-color);
   padding-top: 6rem;
   padding-bottom: 6rem;
+}
+
+.portfolio > .page.third .logos-wrapper a img {
+  width: 15rem;
 }
 
 @media (orientation: portrait) {
@@ -626,6 +631,7 @@ header.header > .subline {
   background-color: var(--brown-color);
   padding-top: 6rem;
   padding-bottom: 6rem;
+  min-height: 100vh;
 }
 
 @media (orientation: portrait) {
