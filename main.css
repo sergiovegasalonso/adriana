@@ -420,8 +420,8 @@ header.header > .subline {
 }
 
 .portfolio > .page.third .logos-wrapper a img {
-  width: 15rem;
-  height: auto;
+  width: 85%;
+  height: 85%;
 }
 
 @media (orientation: portrait) {
@@ -433,13 +433,12 @@ header.header > .subline {
 
 .portfolio > .page.third > p {
   text-align: center;
-  height: 5%;
-  margin: 0 0 1rem 0;
+  margin-bottom: 5rem;
 }
 
 @media (max-width: 991px) {
   .portfolio > .page.third > p {
-    text-align: justify;
+    text-align: center;
   }  
 }
 
