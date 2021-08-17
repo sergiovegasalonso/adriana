@@ -420,8 +420,8 @@ header.header > .subline {
 }
 
 .portfolio > .page.third .logos-wrapper a img {
-  width: 85%;
-  height: 85%;
+  width: 95%;
+  height: 75%;
 }
 
 @media (orientation: portrait) {
@@ -433,7 +433,13 @@ header.header > .subline {
 
 .portfolio > .page.third > p {
   text-align: center;
-  margin-bottom: 5rem;
+  margin-bottom: 6rem;
+}
+
+@media (orientation: portrait) {
+  .portfolio > .page.third > p  {
+    margin: 3rem;
+  }
 }
 
 @media (max-width: 991px) {
@@ -441,6 +447,8 @@ header.header > .subline {
     text-align: center;
   }  
 }
+
+
 
 .portfolio > .page.third .logos-wrapper {
   display: -ms-grid;
