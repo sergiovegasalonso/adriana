@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url('fonts/Raleway-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
 * {
   font-family: 'Raleway', sans-serif;
   font-display: swap;
