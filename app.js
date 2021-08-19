@@ -1,7 +1,7 @@
 window.onload = function () {
 
     // Consts and variables
-    const firstAnimationMsDuration = 3000;
+    const firstAnimationMsDuration = 4250;
     const body = document.querySelector('body');
     const backdrop = document.querySelector('div.backdrop');
 
