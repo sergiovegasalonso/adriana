@@ -876,3 +876,7 @@ header.header > .subline {
 textarea {
   resize: none;
 }
+
+footer.page {
+  background-color: var(--black-color);
+}
